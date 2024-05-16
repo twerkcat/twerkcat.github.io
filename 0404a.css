@@ -1,0 +1,51 @@
+@font-face {
+    font-family: WAG;
+    src: url("CookieRun\ Black.otf");
+}
+
+@font-face {
+    font-family: NOTO;
+    src: url("NotoSansKR-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    left: 0;
+    top: 40px;
+    margin: 0 auto;
+    width: 80%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin-bottom: 40px;
+    font-family: WAG;
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    background-color:deeppink
+    /*background-color:black;*/
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: NOTO;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 150%;
+    /*background-color:black;*/
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
