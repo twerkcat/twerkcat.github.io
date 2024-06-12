@@ -119,3 +119,9 @@ a {
   /*   text-decoration-line: underline line-through overline; */
   }
 
+  #navmenu a:hover {
+    text-decoration: underline;
+    color: gray;
+
+}
+

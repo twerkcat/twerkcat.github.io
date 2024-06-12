@@ -45,6 +45,10 @@ a {
   /*   text-decoration-line: underline line-through overline; */
   }
 
-a:hover {
+
+#navmenu a:hover {
+    text-decoration: underline;
     color: gray;
+
 }
+
